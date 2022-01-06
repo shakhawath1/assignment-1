@@ -51,6 +51,7 @@ p{
 }
 .half-width{
     width: 45%;
+    float: left;
 }
 .heading{
     display: flex;
@@ -98,4 +99,16 @@ p{
 }
 #goals{
     background-color: #c999af;
+}
+/* Develop Area */
+.developo-area{
+    background-image: url(img/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: 30px;
+}
+.develope-area img{
+    width: 400px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 10px 3px #aea2b3;
 }
