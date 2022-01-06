@@ -14,13 +14,17 @@ section{
     height: 400px;
     padding-bottom: 150px;
 }
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px; 
+}
 p{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     margin: 30px 0px;
 }
 .container{
-    margin: 100px 120px 80px 120px;
+    margin: 50px 120px 80px 120px;
 }
 .button{
     text-decoration: none;
@@ -30,6 +34,16 @@ p{
     font-weight: 600;
     border-radius: 9px;
     background-image: linear-gradient(45deg, rgb(233, 80, 182), rgba(248, 91, 43, 0.733));
+}
+.head-line{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(44, 36, 36);
+    margin-top: 50px;
+}
+.color-text{
+    color: #f15619be;
 }
 .top-banner{
     height: 450px;
@@ -41,6 +55,7 @@ p{
 .heading{
     display: flex;
 }
+
 .vr-line{
     border: 2px solid rgb(240, 22, 22);
     height: 118px;
@@ -53,12 +68,34 @@ p{
     font-size: 70px;
     padding-left: 5px;
 }
-#mission{
-    color: #f15619be;
-}
+
 .half-width img{
     width: 90%;
     margin-left: 150px;
     background-repeat: no-repeat;
     border-radius: 9px;
+}
+/* Mission Area  */
+.mission-area{
+    display: flex;
+}
+.mission-area img{
+    width: 150px;
+}
+.mission-area div{
+    height: 380px;
+    width: 300px;
+    box-shadow: 0px 0px 10px 4px gray;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+#mission{
+    background-color: #ffc4e18e;
+}
+#vission{
+    background-color: #d6a6e9;
+    margin: 0px 40px;
+}
+#goals{
+    background-color: #c999af;
 }
